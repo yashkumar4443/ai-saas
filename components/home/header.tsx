@@ -27,12 +27,12 @@ export default function Header() {
           <span className="flex items-center gap-2 shrink-0">
             <Image
               src="/icon.ico"
-              alt="SpeakEasy logo"
+              alt="BlogTalk logo"
               width={32}
               height={32}
               className="hover:rotate-12 transform transition duration-200 ease-in-out"
             />
-            <span className="font-extrabold text-lg">SpeakEasy</span>
+            <span className="font-extrabold text-lg">BlogTalk</span>
           </span>
         </NavLink>
       </div>
