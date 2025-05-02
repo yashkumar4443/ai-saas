@@ -16,7 +16,7 @@ export default async function Dashboard() {
   const clerkUser = await currentUser();
 
   if (!clerkUser) {
-    return redirect("/sign-in");
+    return redirect("/sign-in");  // Redirect to sign-in page if user is not authenticated
   }
 
   const email = clerkUser?.emailAddresses?.[0].emailAddress ?? "";
